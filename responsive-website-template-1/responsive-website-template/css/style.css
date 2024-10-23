@@ -1,0 +1,136 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background:
+	
+
+}
+
+main {
+	padding: 15px;
+}
+
+header, footer {
+	background: #;
+	padding: 10px;
+}
+
+h1{
+	font-size: 4em;
+	line-height: 1em;
+}
+
+main header{
+	background: none;
+}
+
+main h1{
+	font-size: 2.25em;
+}
+
+p {
+	font-family: Montserrat, comicsans;
+}
+
+
+
+section#personal {
+	background: #;
+	padding: 10px;
+
+#container {
+	
+}
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+#container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+main {
+width: 85%;
+margin: auto;
+}
+
+header{
+	background: none;
+	}
+
+body {
+	background: url(../img/photname) no repeat fixed center;
+	background-size: hover;
+}
+
+section#personal {
+	background: #;
+	padding: 10px
+	margin-bottom: 2em;	
+}
+
+footer{ 
+	background:none;
+	width; 85%
+	margin: auto;
+	color: white
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+#container	
+
+div#container>header h1 {
+	color: magenta;
+}
+		
+section#author {
+	float:left;
+	width: 45%;
+}
+
+section#personal {
+	float:right;
+	width: 35%;
+}
+	
+footer{
+	
+	clear: both;
+
+}	
+
+} /* closes 1024px+ */
+
+
+
